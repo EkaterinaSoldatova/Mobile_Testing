@@ -1,0 +1,250 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Ideal days","Original estimation","Story points","Environment","Description","Votes"
+"G41-201","group4.1","Star","Edit task, the field ""Enter your TO-DO here"": The task isn't updated if the field ""Enter your TO-DO here"" edit with valid data (latin or cyrillic symbols lowercase and uppercase, numbers, special characters)","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create a task with the field ""Enter your TO-DO here"" for example, to do homework
+3. Tap on the created task
+4. Tap on the button ""Edit""
+5. Edit the field ""Enter your TO-DO here"" with any valid data (latin or cyrillic symbols lowercase and uppercase, numbers, special characters) for example, to do homework 10 May. Sent 15 May
+6. Leave the field ""Title"" blank
+7. Tap on the button ""v""
+
+ACR: The task isn't updated. The main page is opened.
+
+EXR: The task is updated. The data changes according to the changes made. The main page is opened.","0"
+"G41-200","group4.1","Star","Edit task, the field ""Title"": The task isn't updated if the field ""Title"" edit with valid data (latin or cyrillic symbols lowercase and uppercase, numbers, special characters)","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create a task with the field ""Title"" for example, to do homework
+3. Tap on the created task
+4. Tap on the button ""Edit""
+5. Edit the field ""Title"" with any valid data (latin or cyrillic symbols lowercase and uppercase, numbers, special characters) for example, to do homework 10 May. Sent 15 May
+6. Leave the field ""Enter your TO-DO here"" blank
+7. Tap on the button ""v""
+
+ACR: The task isn't updated. The main page is opened.
+
+EXR: The task is updated. The data changes according to the changes made. The main page is opened.","0"
+"G41-198","group4.1","Star","The button ""<-"" on the ""Edit TO-DO"" page: The button ""<-"" doesn't return to previous page","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Major","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create the task with ""Title"" for example, to do homework
+3. Tap on the created task
+4. Tap on the button ""Edit""
+5. Tap on the button ""\<-"" back in the AppBar
+
+ACR: The previous page (page of the task) isn't opened. User can't return to the previous page.
+
+EXR: The previous page (page of the task) is opened. User can return to the previous page.","0"
+"G41-194","group4.1","Star","Create task, the field ""Enter your TO-DO here"": The task isn't created if user create task with the field ""Enter your TO-DO here"" is filled with using numbers or special characters","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","
+
+STR:
+
+1. Open the application ""TO-DO MVP""
+2. Tap on the button ""+""
+3. Fill the field ""Enter your TO-DO here"" any numbers, for example, 243243
+4. Leave the field ""Title"" blank
+5. Tap on the button ""v"" create
+6. Tap on the button ""+""
+7. Fill the field ""Enter your TO-DO here"" any numbers, for example ()?!,
+8. Leave the field ""Title"" blank
+9. Tap on the button ""v"" create
+
+ACR: The task isn't created. The application is crushed and reload. Data of the application isn't saved
+
+EXR: The task is created. The application isn't crushed and reload. Data of the application is saved.","0"
+"G41-192","group4.1","Star","Create task, the field ""Title"": The task is created if user create task with the field ""Title"" is filled spaces","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Tap on the button ""+""
+3. Fill the field ""Title"" spaces
+4. Leave the field ""Enter your TO-DO here"" blank
+5. Tap on the button ""v"" create
+
+ACR: The empty task is created. The main page is opened.
+
+EXR: The error message is appeared. The task isn't created.","0"
+"G41-193","group4.1","Star","Create a task, the field ""Title"": The error message is appeared if the user creates a task with the field ""Title""  filled any emoji","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Tap on the button ""+""
+3. Fill the field ""Title""  any emoji
+4. Leave the field ""Enter your TO-DO here"" blank
+5. Tap on the button ""v"" to create
+
+ACR: The error message isn't appeared. The application is crushed and reloaded. The data of the application isn't saved.
+
+EXR: The error message is appeared. The application isn't crushed and reloaded. Data of the application  is saved","0"
+"G41-195","group4.1","Star","Create task, the field ""Enter your TO-DO here"": The task is created if user create task with the field ""Enter your TO-DO here"" is filled spaces","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Tap on the button ""+""
+3. Fill the field ""Enter your TO-DO here"" spaces
+4. Leave the field ""Title"" blank
+5. Tap on the button ""v"" create
+
+ACR: The empty task is created. The main page is opened.
+
+EXR: The error message is appeared. The task isn't created.","0"
+"G41-196","group4.1","Star","Create a task, the field ""Enter yor TO-DO here"": The error message is appeared if the user creates a task with the field ""Enter your TO-DO here"" filled any emoji","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Tap on the button ""+""
+3. Fill the field ""Enter your TO-DO here"" any emoji
+4. Leave the field ""Title"" blank
+5. Tap on the button ""v"" to create
+
+ACR: The error message isn't appeared. The application is crushed and reloaded. The data of the application isn't saved.
+
+EXR: The error message is appeared. The application isn't crushed and reloaded. Data of the application is saved","0"
+"G41-199","group4.1","Star","Edit task, fields ""Title"" and ""Enter your TO-DO task"": The error message ""To-do cannot be empty"" isn't appeared if user edit task with empty the fields ""Title"" and ""Enter your TO-DO here""","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create a task with the field ""Title"" for example to do homework
+3. Tap on the created task
+4. Tap on the button ""Edit""
+5. Clear the field ""Title""
+6. Leave the field ""Enter your TO-DO here"" blank
+7. Tap on the button ""v""
+
+ACR: The error message ""To-do cannot be empty"" isn't appeared. The task isn't updated.
+
+EXR: The error message ""To-do cannot be empty"" is appeared. The task isn't updated.","0"
+"G41-202","group4.1","Star","Edit task, the field ""Title"": The error message is appeared if the field ""Title"" edit with not valid data (string spaces, emoji)","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+ 1. Open the application ""TO-DO MVP""
+ 2. Create a task with the field ""Title"" for example to do homework
+ 3. Tap on the created task
+ 4. Tap on the button ""Edit""
+ 5. Edit the field ""Title"" with not valid data (string spaces)
+ 6. Leave the field ""Enter your TO-DO here"" blank
+ 7. Tap on the button ""v""
+ 8. Tap on the created task
+ 9. Tap on the button ""Edit""
+10. Edit the field ""Title"" with not valid data (any emoji)
+11. Leave the field ""Enter your TO-DO here"" blank
+12. Tap on the button ""v""
+
+ACR: The error message isn't appeared. The data of the task isn't updated. The main page is opened.
+
+EXR: The error message is appeared. The data of the task isn't updated. The ""Edit TO-DO"" page is opened.","0"
+"G41-203","group4.1","Star","Edit task, the field ""Enter your TO-DO here"": The error message is appeared if the field ""Enter your TO-DO here"" edit with not valid data (string spaces, emoji)","Ekaterina Soldatova","12 May 2023","14 May 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+ 1. Open the application ""TO-DO MVP""
+ 2. Create a task with the field ""Enter your TO-DO here"" for example to do homework
+ 3. Tap on the created task
+ 4. Tap on the button ""Edit""
+ 5. Edit the field ""Enter your TO-DO here"" with not valid data (string spaces)
+ 6. Leave the field ""Title"" blank
+ 7. Tap on the button ""v""
+ 8. Tap on the created task
+ 9. Tap on the button ""Edit""
+10. Edit the field ""Enter your TO-DO here"" with not valid data (any emoji)
+11. Leave the field ""Title"" blank
+12. Tap on the button ""v""
+
+ACR: The error message isn't appeared. The data of the task isn't updated. The main page is opened.
+
+EXR: The error message is appeared. The data of the task isn't updated. The ""Edit TO-DO"" page is opened.","0"
+"G41-209","group4.1","Star","The application startup/exit: The data don't save in the application if user startup/ exit the application","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create several tasks
+3. Exit the application
+4. Open the application ""TO-DO MVP""
+
+ACR:   The data don't save in the application if user startup/ exit the application
+
+EXR:  The data save in the application if user startup/ exit the application","0"
+"G41-208","group4.1","Star","Statistics list: Completed tasks is counted not correct if the user have completed task in the TO-DO list","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Major","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create several tasks
+3. Mark two any tasks like completed
+4. Open the hamburger menu
+5. Tap on the item ""Statistics"" menu
+6. See ""Completed tasks"" line
+
+ACR: The completed task isn't counted correct (0 tasks) if the user have two completed task in the TO-DO list
+
+EXR:  The completed task is counted correct (two tasks) if the user have two completed task in the TO-DO list","0"
+"G41-207","group4.1","Star","List of the tasks, ""Active"" tasks: The background image ""You have no activity TO-DOs"" isn't appeared if the user filtered active tasks and list of the active task is empty","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Minor","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create several tasks
+3. Mark all tasks like completed
+4. Tap on the icon filter on the AppBar
+5. Tap on the item ""Active"" menu
+
+ACR: The background image ""You have no activity TO-DOs"" isn't appeared if the user filtered active tasks and list of the active task is empty
+
+EXR: The background image ""You have no activity TO-DOs"" is appeared if the user filtered active tasks and list of the active task is empty","0"
+"G41-206","group4.1","Star","The list of the task: The list of the tasks isn't refresh if the user tap on the item ""Refresh"" in the Action menu","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create several tasks
+3. Mark two any tasks like completed
+4. Tap on the icon Action menu
+5. Tap on the item ""Refresh"" menu
+
+ACR: All tasks isn't deleted. The application is crushed. Data isn't saved.
+
+EXR: All tasks is deleted. The application isn't crushed. Data is saved.","0"
+"G41-205","group4.1","Star","The list of the task: The completed task isn't deleted if the user tap on the item ""Clear completed"" in the Action menu","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Major","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create several tasks
+3. Mark two any tasks like completed
+4. Tap on the icon Action menu
+5. Tap on the item ""Clear completed"" menu
+
+ACR: The completed tasks is deleted. The ""All TO-DOs"" list is opened.
+
+EXR: The completed tasks isn't deleted. The ""All TO-DOs"" list is opened.","0"
+"G41-204","group4.1","Star","List of the tasks, ""Active"" tasks: The Active TO-DOs list isn't appeared if the user filtred active tasks","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Major","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create several tasks
+3. Mark two any tasks like completed
+4. Tap on the icon filter on the AppBar
+5. Tap on the item ""Active"" menu
+
+   
+
+ACR: The list of all tasks is appeared. The title of the list is ""All TO-DOs""
+
+EXR: The active tasks is appeared. The title of the list is ""Active TO-DOs""","0"
+"G41-197","group4.1","Star","The ""Edit TO-DO"" page: The mistakes in the title of the page ""Edit TO-DO""","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Minor","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Create one task with data the field ""Title"" example to do homework
+3. Tap on the created task
+4. Tap on the button ""Edit""
+
+ACR: The title of the Edit TO-DO page contains mistakes ""Edite TO-DO"" 
+
+EXR: The title should be ""Edit TO-DO""","0"
+"G41-190","group4.1","Star","Create task, the field ""Title"": The task isn't created if user create task with the field ""Title"" is filled with using numbers or special characters","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application ""TO-DO MVP""
+2. Tap on the button ""+""
+3. Fill the field ""Title"" any numbers, for example, 243243
+4. Leave the field ""Enter your TO-DO here"" blank
+5. Tap on the button ""v"" create
+6. Tap on the button ""+""
+7. Fill the field ""Title"" any numbers, for example ()?!,
+8. Leave the field ""Enter your TO-DO here"" blank
+9. Tap on the button ""v"" create
+
+ACR: The task isn't created. The application is crushed and reload. Data of the application isn't saved
+
+EXR:  The task is created. The application isn't crushed and reload. Data of the application is saved.","0"
+"G41-189","group4.1","Star","The button ""<-"" on the ""New TO-DO"" page: The button ""<-"" doesn't return to previous page","Ekaterina Soldatova","12 May 2023","12 May 2023",,"Major","Bug","Open","Unassigned","Unscheduled",,,,"Android Studio Flamingo 2022.2.1 Pixel 6 API 33","STR:
+
+1. Open the application  ""TO-DO MVP""
+2. Tap on the button ""+"" creating task
+3. Tap on the button ""\<-"" back in the AppBar
+
+ACR: The previous page (main page) isn't opened. User can't return to the previous page.
+
+EXR: The previous page (main page) is opened. User can return to the previous page.","0"
